@@ -2,7 +2,7 @@ const router = require("express").Router();
 const WhatsAppCloudApi = require("whatsappcloudapi_wrapper");
 
 const WhatsApp = new WhatsAppCloudApi({
-  accessToken: "EAAVMocn17ZBQBPJZANKWo5npPGOWXPhZBNysdmFRx8NWAhgWnCxAJGFgL87CiyY77V3wGOKar8MC7Hi3wUdMi0E2jAlpP9Sy98QxRceAwMnZCZCIiNq8omO0vGGrT2TL73RGG7g6bknALSsAsozZC4eSZB6LysRZB3YjJcZB2gaZAi16epFWp89ZBxiV9xzLDdPZAktMrKEX39lFzegy4iT45VNcUqa0LO4Yb7LMS1CqiQNqou8ZD",
+  accessToken: "EAAVMocn17ZBQBPMh3OlDgD58Y4ZCmg1C3bZAPEVXWIsGJbmJue3nYrFXppZCkzT9MoqhRJZAV7DNVAjXWAH9si8MkrtJZBrFF64FodavAVq48ZBfNHAoYzip0s6tbUe7zC6NgCsxJnQ7QIzMMdC7oV382guZCMydvTZAKKJzaFgNd0uumZCGwUTmZBr2r4PZA4MTxvOAoVtNUUIWr64ATh1QMULlmxhGEMRGeC33mcNgvWFGD1AZD",
   senderPhoneNumberId: "772772022581174",
   WABA_ID: "1124533129724889",
 });
