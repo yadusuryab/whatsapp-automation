@@ -1,4 +1,4 @@
-process.env = require("./.env.js")(process.env.NODE_ENV || "development");
+// process.env = require("./.env.js")(process.env.NODE_ENV || "development");
 const PORT = process.env.PORT || 9000;
 const express = require("express");
 
